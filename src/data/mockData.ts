@@ -1,9 +1,15 @@
+import Alice from '@/assets/Alice.jpg';
+import Bob from '@/assets/Bob.jpg';
+import Charlie from '@/assets/Charlie.jpg';
+import David from '@/assets/David.jpg';
+import Eve from '@/assets/Eve.jpg';
+
 export const mockUsers = [
-  { name: 'Alice', id: 1 },
-  { name: 'Bob', id: 2 },
-  { name: 'Charlie', id: 3 },
-  { name: 'David', id: 4 },
-  { name: 'Eve', id: 5 }
+  { id: 1, name: 'Alice', avatar: Alice },
+  { id: 2, name: 'Bob', avatar: Bob },
+  { id: 3, name: 'Charlie', avatar: Charlie },
+  { id: 4, name: 'David', avatar: David },
+  { id: 5, name: 'Eve', avatar: Eve }
 ];
 
 export const mockMessages = {

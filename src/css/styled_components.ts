@@ -58,6 +58,13 @@ export const StyledUserList = styled.div`
       position: absolute;
       left: 4px;
       top: 2px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+        object-fit: cover;
+      }
     }
   }
   @media (max-width: 400px) {

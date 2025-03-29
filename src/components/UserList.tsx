@@ -21,7 +21,9 @@ export default function UserList() {
           key={user.id}
           onClick={handleOnClick}
         >
-          <div className="avatar" />
+          <div className="avatar">
+            <img src={user.avatar} />
+          </div>
           <span className="name">{user.name}</span>
         </button>
       ))}
