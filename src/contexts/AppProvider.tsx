@@ -1,10 +1,17 @@
-// App Provider here
 import React, { useState } from 'react';
 import AppContext from '@/contexts/AppContext';
+import { Message } from '@/lib/types';
 
 const AppProvider = ({ children }: { children: React.ReactNode }) => {
-  const [something, setSomething] = useState<string>('something');
-  const value = { something, setSomething };
+  const [recipient, setRecipient] = useState<string>('');
+  const [messages, setMessages] = useState<Message[]>([]);
+
+  const value = {
+    recipient,
+    setRecipient,
+    messages,
+    setMessages
+  };
 
   return <AppContext value={value}>{children}</AppContext>;
 };

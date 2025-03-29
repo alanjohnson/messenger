@@ -1,5 +1,12 @@
-// types will go here
+export type Message = {
+  id: number;
+  recipient: string;
+  message: string;
+};
+
 export type AppContextType = {
-  something: string;
-  setSomething: (value: string) => void;
+  recipient: string;
+  setRecipient: (recipient: string) => void;
+  messages: Message[];
+  setMessages: (messages: Message[]) => void;
 };

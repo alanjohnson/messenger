@@ -1,4 +1,3 @@
-// styled components go here
 import styled from 'styled-components';
 
 export const MessengerContainer = styled.div`
@@ -20,4 +19,11 @@ export const StyledUserList = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
+`;
+
+export const StyledMessageHistory = styled.div`
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  flex: 1;
 `;
