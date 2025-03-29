@@ -20,6 +20,8 @@ approach:
     - recipients list
     - form for sending message
     - message history
+- make it look ok in browsers in dark/lght mode
+- keep it responsive down to 320px
  
 To run
 ```zsh
