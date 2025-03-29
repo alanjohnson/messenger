@@ -87,6 +87,8 @@ export const StyledMessageHistory = styled.div`
     margin: 5px 30px 5px 5px;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease;
+    animation: jolt 0.5s;
   }
   .me {
     margin: 5px 5px 5px 30px;

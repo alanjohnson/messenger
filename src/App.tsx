@@ -3,7 +3,8 @@ import AppProvider from '@/contexts/AppProvider';
 import UserList from '@/components/UserList';
 import MessageForm from '@/components/MessageForm';
 import MessageHistory from '@/components/MessageHistory';
-import '@/App.css';
+import '@/css/app.css';
+import '@/css/animations.css';
 
 function App() {
   return (
