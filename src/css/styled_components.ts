@@ -1,10 +1,11 @@
 import styled from 'styled-components';
 
 export const MessengerContainer = styled.div`
-  border: 1px solid red;
   display: flex;
   flex: 1;
   flex-direction: row;
+  overflow: hidden;
+  min-width: 280px;
 `;
 
 export const MessageWindow = styled.div`
