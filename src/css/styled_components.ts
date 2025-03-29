@@ -9,11 +9,24 @@ export const MessengerContainer = styled.div`
 `;
 
 export const MessageWindow = styled.div`
-  border: 1px solid red;
   flex: 2;
   border: 1px solid grey;
   display: flex;
   flex-direction: column;
+  form {
+    align-self: flex-end;
+    width: calc(100% - 10px);
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    input {
+      width: 80%;
+      padding: 10px;
+      border: 1px solid grey;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+  }
 `;
 
 export const StyledUserList = styled.div`
