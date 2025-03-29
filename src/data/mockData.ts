@@ -26,10 +26,10 @@ export const mockMessages = {
     { id: 5, recipient: 'Charlie', message: 'See you soon' }
   ],
   David: [
-    { id: 2, recipient: 'me', message: 'Had fun, thx for the invite' },
-    { id: 3, recipient: 'David', message: 'np, was good time' },
-    { id: 4, recipient: 'me', message: 'Good night' },
-    { id: 5, recipient: 'David', message: 'See you later' }
+    { id: 1, recipient: 'me', message: 'Had fun, thx for the invite' },
+    { id: 2, recipient: 'David', message: 'np, was good time' },
+    { id: 3, recipient: 'me', message: 'Good night' },
+    { id: 4, recipient: 'David', message: 'See you later' }
   ],
   Eve: [
     { id: 1, recipient: 'Eve', message: 'beep boop' },

@@ -33,6 +33,41 @@ export const StyledUserList = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  border: 1px solid grey;
+  min-width: 45px;
+  @media (max-width: 400px) {
+    max-width: 45px;
+  }
+  button {
+    border: 2px solid transparent;
+    text-align: left;
+    position: relative;
+    padding-left: 45px;
+    height: 42px;
+    &.active {
+      border-color: #99c8ff;
+    }
+    .avatar {
+      border-radius: 50%;
+      border: 1px solid #3a3a3a;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      position: absolute;
+      left: 4px;
+      top: 2px;
+    }
+  }
+  @media (max-width: 400px) {
+    button {
+      padding-left: 0;
+    }
+    .name {
+      display: none;
+    }
+  }
 `;
 
 export const StyledMessageHistory = styled.div`
@@ -40,4 +75,14 @@ export const StyledMessageHistory = styled.div`
   flex-direction: column;
   overflow-y: scroll;
   flex: 1;
+  p {
+    padding: 2px 5px;
+    margin: 5px 30px 5px 5px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .me {
+    margin: 5px 5px 5px 30px;
+    background-color: rgba(97, 104, 243, 0.5);
+  }
 `;
