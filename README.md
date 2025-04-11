@@ -4,13 +4,13 @@ example messenger app test
 Goals:
 1. The user should be able to write messages in the chat window and see them appear.
 2. The user should be able to select a friend and see his chat with this friend.
-   - Update: message history should be retained when moving between recipients
-4. No more than 2 hours dev time
+3. No more than 2 hours dev time
  
 Non-Goals
 1. Persisting chat history.
-2. Talking to a backend.
-3. Multiple users.
+   - Update: message history updated to now be retained when moving between recipients
+3. Talking to a backend.
+4. Multiple users.
 
 approach:
 - use react + vite + typescript
